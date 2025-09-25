@@ -4,10 +4,9 @@
   
   void ajouter() {
     printf("le nom: ");
-    scanf("%s",&nom);
+    scanf("%s",nom[]);
     printf("le telephone: ");
-    scanf("%s",&tele);
-    printf("%s",)
+    scanf("%s",tele[]);
    }
   void afficher() {
     int i,j;
@@ -25,12 +24,12 @@ void rechercher(){
  if(nom == nomUtilisateur)
    printf(tab)
 }
-int main() {
-    ajouter();
-    afficher();
-    recherher();
-    supprumer();
-    quitter();
+void menu () {
+    printf("ajouter");
+    printf("afficher");
+    printf("recherher");
+    printf("supprumer");
+    printf("quitter");
       switch 
         case 1 :
          printf("ajouter un contact");
